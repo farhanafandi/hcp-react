@@ -1,0 +1,39 @@
+{
+  "name": "hcp-react",
+  "version": "0.0.1",
+  "description": "React components that can used in many project",
+  "scripts": {
+    "dev": "vite",
+    "rollup": "rollup -c",
+    "test": "jest"
+  },
+  "author": "Farhan Afandi",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "@types/jest": "^29.5.13",
+    "@types/react": "^18.3.9",
+    "@types/react-dom": "^18.3.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.22.4",
+    "rollup-plugin-dts": "^6.1.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "sass": "^1.79.3"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
